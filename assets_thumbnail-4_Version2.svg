@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#fff"/>
+  <rect x="40" y="40" width="1120" height="595" rx="12" fill="#6b4eff"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif">
+    <text x="80" y="150" font-size="44" font-weight="700">形象篇 · 品牌片</text>
+    <text x="80" y="200" font-size="18" opacity="0.95">专业视觉 · 一致化风格</text>
+  </g>
+</svg>

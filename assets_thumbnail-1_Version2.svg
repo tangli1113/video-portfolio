@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b63d6"/>
+      <stop offset="1" stop-color="#004e9e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#f4f6fb"/>
+  <rect x="40" y="40" width="1120" height="595" rx="14" fill="url(#g1)"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif">
+    <text x="80" y="160" font-size="44" font-weight="700">宣传篇 · 城市楼盘</text>
+    <rect x="80" y="200" width="480" height="300" rx="8" fill="#fff" opacity="0.07"/>
+    <g transform="translate(620,220)" fill="#fff" opacity="0.95">
+      <rect x="0" y="0" width="460" height="300" rx="6" fill="#ffffff" opacity="0.08"/>
+      <text x="20" y="40" font-size="28">镜头节奏 · 空间感</text>
+      <text x="20" y="80" font-size="18" opacity="0.9">视觉主旨：舒适 / 明亮</text>
+    </g>
+  </g>
+</svg>

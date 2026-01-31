@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#f0fbf7"/>
+  <rect x="50" y="50" width="1100" height="575" rx="12" fill="#2a9d6f"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif">
+    <text x="90" y="150" font-size="44" font-weight="700">采访类目 · 人物特写</text>
+    <text x="90" y="200" font-size="18" opacity="0.95">强化口述的感染力与现场感</text>
+  </g>
+</svg>

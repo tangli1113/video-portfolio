@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>视频 讲述故事 — 视频剪辑师 作品集</title>
+  <meta name="description" content="专注于创意视频制作，用镜头捕捉美好瞬间，用剪辑讲述动人故事。" />
+  <meta property="og:title" content="视频 讲述故事 — 视频剪辑师" />
+  <meta property="og:description" content="专注于创意视频制作，用镜头捕捉美好瞬间，用剪辑讲述动人故事。" />
+  <style>
+    :root{--maxw:980px;--accent:#0b63d6;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;color:#111;line-height:1.5;background:#f7f7f8}
+    .wrap{max-width:var(--maxw);margin:32px auto;padding:24px;background:#fff;border-radius:10px;box-shadow:0 6px 24px rgba(12,20,40,0.06)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    h1{margin:0;font-size:1.4rem}
+    .tagline{color:var(--muted);margin-top:6px}
+    nav a{color:var(--accent);text-decoration:none;margin-left:12px;font-size:0.95rem}
+    .hero{display:flex;gap:20px;align-items:center;margin-top:18px}
+    .hero .left{flex:1}
+    .hero .right{width:180px;text-align:center}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:22px}
+    .card{background:#fff;border:1px solid #eee;border-radius:8px;padding:10px;overflow:hidden}
+    .thumb{width:100%;height:140px;border-radius:6px;overflow:hidden;background:#ddd;display:flex;align-items:center;justify-content:center}
+    .thumb img{width:100%;height:100%;object-fit:cover}
+    .card h3{margin:10px 0 6px;font-size:1.05rem}
+    .card p{margin:0;color:var(--muted);font-size:0.95rem}
+    footer{margin-top:28px;border-top:1px dashed #eee;padding-top:16px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .contact{display:flex;align-items:center;gap:12px}
+    .qr img{width:96px;border-radius:8px;border:1px solid #eee}
+    .phone{font-weight:600}
+    .small{font-size:0.85rem;color:var(--muted)}
+    a.button{display:inline-block;padding:8px 12px;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none}
+    @media (max-width:720px){.hero{flex-direction:column}.hero .right{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>视频 讲述故事</h1>
+        <div class="tagline">专注于创意视频制作，用镜头捕捉美好瞬间，用剪辑讲述动人故事。</div>
+      </div>
+      <nav>
+        <a href="#projects">作品</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h2 id="projects">精选作品</h2>
+        <div class="projects">
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/thumbnail-1.svg" alt="宣传篇 缩略图">
+            </div>
+            <h3>宣传篇</h3>
+            <p>创意短片与楼盘宣传片，注重镜头节奏与情绪表现。</p>
+            <p style="margin-top:8px"><a class="button" href="projects/宣传篇.html">查看案例</a></p>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/thumbnail-2.svg" alt="概念篇 缩略图">
+            </div>
+            <h3>概念篇</h3>
+            <p>概念视频与视觉化叙事，用创意讲故事，强化品牌印象。</p>
+            <p style="margin-top:8px"><a class="button" href="projects/概念篇.html">查看案例</a></p>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/thumbnail-3.svg" alt="采访类目 缩略图">
+            </div>
+            <h3>采访类目</h3>
+            <p>人物采访与纪录片段落，擅长把口述转化为有感染力的叙事。</p>
+            <p style="margin-top:8px"><a class="button" href="projects/采访类目.html">查看案例</a></p>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/thumbnail-4.svg" alt="形象篇 缩略图">
+            </div>
+            <h3>形象篇</h3>
+            <p>公司/品牌形象片，强调美学与节奏，建立专业视觉风格。</p>
+            <p style="margin-top:8px"><a class="button" href="projects/形象篇.html">查看案例</a></p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="right">
+        <div style="background:#fafafa;padding:12px;border-radius:8px;border:1px solid #f0f0f0">
+          <div class="small">联系我</div>
+          <div class="phone">手机：18082872211</div>
+          <div class="small" style="margin-top:8px">或扫码加微信</div>
+          <div class="qr" style="margin-top:8px">
+            <!-- 请上传 wechat-qr.png 到 assets/ 并覆盖此占位 -->
+            <img src="assets/wechat-qr.png" alt="微信二维码">
+          </div>
+          <div style="margin-top:10px"><a class="button" href="#contact">发送项目咨询</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" style="margin-top:26px">
+      <h2>关于我</h2>
+      <p class="small">我是视频剪辑师，擅长房地产与商业宣传片的镜头语言与后期节奏。作品以情绪线与画面感为主，帮助品牌建立视觉记忆。更多作品与合作请联系上方手机号或微信。</p>
+    </section>
+
+    <footer id="contact">
+      <div class="small">© 2026 视频 讲述故事 · 联系：18082872211</div>
+      <div class="small">项目演示可在案例页中查看（如需视频源请联系提供播放链接或文件）。</div>
+    </footer>
+  </div>
+</body>
+</html>
